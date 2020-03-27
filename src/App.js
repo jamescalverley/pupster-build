@@ -1,19 +1,17 @@
 import React from 'react';
+import NavBar from './components/NavBar';
+import AboutPage from './components/AboutPage';
+import DiscoverPage from './components/DiscoverPage'
+import SearchPage from './components/SearchPage'
 
-import './App.css';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a>
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <AboutPage />
     </div>
   );
 }
